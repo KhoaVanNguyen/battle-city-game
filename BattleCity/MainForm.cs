@@ -970,11 +970,10 @@ namespace BattleCity
             canvas.FillRectangle(Brushes.Black, 0, 0, 416, 480);
 
             canvas.DrawString("Battle City", fontLarge, Brushes.Chocolate, 40, 80);
-            canvas.DrawString("PLAYER", fontSmall, choiceMenu == 0 ? Brushes.Yellow : Brushes.WhiteSmoke, 167, 180);
-            canvas.DrawString("PLAYERS", fontSmall, choiceMenu == 1 ? Brushes.Yellow : Brushes.WhiteSmoke, 163, 220);
-            canvas.DrawString("HELP", fontSmall, choiceMenu == 2 ? Brushes.Yellow : Brushes.WhiteSmoke, 181, 260);
-            canvas.DrawString("INTRODUCTION", fontSmall, choiceMenu == 3 ? Brushes.Yellow : Brushes.WhiteSmoke, 125, 300);
-            canvas.DrawString("EXIT", fontSmall, choiceMenu == 4 ? Brushes.Yellow : Brushes.WhiteSmoke, 181, 340);
+            canvas.DrawString("PLAY", fontSmall, choiceMenu == 0 ? Brushes.Yellow : Brushes.WhiteSmoke, 167, 180);
+ 
+            canvas.DrawString("INTRODUCTION", fontSmall, choiceMenu == 3 ? Brushes.Yellow : Brushes.WhiteSmoke, 115, 220);
+            canvas.DrawString("EXIT", fontSmall, choiceMenu == 4 ? Brushes.Yellow : Brushes.WhiteSmoke, 167, 260);
         }
 
 
@@ -1239,19 +1238,19 @@ namespace BattleCity
             canvas.ResetTransform();
             canvas.DrawString("UNIVERSITY OF INFORMATION", fontSmall, Brushes.WhiteSmoke, 35, 97);
             canvas.DrawString("TECHNOLOGY", fontSmall, Brushes.WhiteSmoke, 135, 117);
-            canvas.DrawString("COMPUTER SCIENCE FACULTY", fontSmall, Brushes.WhiteSmoke, 42, 150);
+            canvas.DrawString("Software Engineering Faculty", fontSmall, Brushes.WhiteSmoke, 42, 150);
             canvas.DrawString("--------------", fontSmall, Brushes.WhiteSmoke, 110, 173);
-            canvas.DrawString("ARTIFICIAL INTELLIGENCE", fontSmall, Brushes.WhiteSmoke, 49, 198);
-            canvas.DrawString("CS106.G22 FINAL PROJECT", fontSmall, Brushes.WhiteSmoke, 49, 218);
+            canvas.DrawString("Intelligent Algorithms", fontSmall, Brushes.WhiteSmoke, 49, 198);
+            canvas.DrawString("SE313.I21 FINAL PROJECT", fontSmall, Brushes.WhiteSmoke, 49, 218);
             canvas.DrawString("--------------", fontSmall, Brushes.WhiteSmoke, 110, 244);
             canvas.DrawString("INSTRUCTORS", fontSmall, Brushes.WhiteSmoke, 130, 263);
-            canvas.DrawString("HUYNH THI THANH THUONG", fontSmall, Brushes.WhiteSmoke, 57, 288);
-            canvas.DrawString("PHAM NGUYEN TRUONG AN", fontSmall, Brushes.WhiteSmoke, 64, 308);
+            canvas.DrawString("NGUYEN VINH KHA", fontSmall, Brushes.WhiteSmoke, 100, 288);
+           
             canvas.DrawString("--------------", fontSmall, Brushes.WhiteSmoke, 110, 333);
             canvas.DrawString("GROUP MEMBERS", fontSmall, Brushes.WhiteSmoke, 113, 353);
-            canvas.DrawString("NGUYEN DUC VU", fontSmall, Brushes.WhiteSmoke, 109, 380);
-            canvas.DrawString("PHAM VAN TUONG", fontSmall, Brushes.WhiteSmoke, 106, 400);
-            canvas.DrawString("NGUYEN THANH NHAN", fontSmall, Brushes.WhiteSmoke, 85, 420);
+            canvas.DrawString("NGUYEN VAN KHOA", fontSmall, Brushes.WhiteSmoke, 109, 380);
+            canvas.DrawString("PHAN MINH HOANG", fontSmall, Brushes.WhiteSmoke, 106, 400);
+          
             canvas.DrawString("--------------", fontSmall, Brushes.WhiteSmoke, 113, 440);
         }
 
