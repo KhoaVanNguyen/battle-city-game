@@ -971,9 +971,9 @@ namespace BattleCity
 
             canvas.DrawString("Battle City", fontLarge, Brushes.Chocolate, 40, 80);
             canvas.DrawString("PLAY", fontSmall, choiceMenu == 0 ? Brushes.Yellow : Brushes.WhiteSmoke, 167, 180);
- 
-            canvas.DrawString("INTRODUCTION", fontSmall, choiceMenu == 3 ? Brushes.Yellow : Brushes.WhiteSmoke, 115, 220);
-            canvas.DrawString("EXIT", fontSmall, choiceMenu == 4 ? Brushes.Yellow : Brushes.WhiteSmoke, 167, 260);
+            canvas.DrawString("2 PLAYERS", fontSmall, choiceMenu == 1 ? Brushes.Yellow : Brushes.WhiteSmoke, 130, 220);
+            canvas.DrawString("INTRODUCTION", fontSmall, choiceMenu == 3 ? Brushes.Yellow : Brushes.WhiteSmoke, 115, 260);
+            canvas.DrawString("EXIT", fontSmall, choiceMenu == 4 ? Brushes.Yellow : Brushes.WhiteSmoke, 167, 300);
         }
 
 
