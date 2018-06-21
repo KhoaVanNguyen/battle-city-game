@@ -44,28 +44,27 @@ namespace BattleCity
             // 
             this.gamePanel.Location = new System.Drawing.Point(0, 0);
             this.gamePanel.Name = "gamePanel";
-            this.gamePanel.Size = new System.Drawing.Size(544, 416);
+            this.gamePanel.Size = new System.Drawing.Size(416, 480);
             this.gamePanel.TabIndex = 0;
-            this.gamePanel.Paint += new System.Windows.Forms.PaintEventHandler(this.gamePaint);
+            this.gamePanel.Paint += new System.Windows.Forms.PaintEventHandler(this.Draw);
             // 
             // MainForm
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
-            this.BackColor = System.Drawing.SystemColors.ActiveBorder;
-            this.ClientSize = new System.Drawing.Size(552, 427);
-            this.ControlBox = false;
+            this.ClientSize = new System.Drawing.Size(416, 480);
             this.Controls.Add(this.gamePanel);
+            this.FormBorderStyle = System.Windows.Forms.FormBorderStyle.None;
             this.MaximizeBox = false;
-            this.MaximumSize = new System.Drawing.Size(560, 454);
+            this.MaximumSize = new System.Drawing.Size(416, 480);
             this.MinimizeBox = false;
-            this.MinimumSize = new System.Drawing.Size(560, 454);
+            this.MinimumSize = new System.Drawing.Size(416, 480);
             this.Name = "MainForm";
             this.StartPosition = System.Windows.Forms.FormStartPosition.CenterScreen;
             this.Text = "Battle City";
             this.Load += new System.EventHandler(this.MainForm_Load);
+            this.KeyPress += new System.Windows.Forms.KeyPressEventHandler(this.MainForm_KeyPress);
             this.ResumeLayout(false);
-
         }
 
         #endregion

@@ -1,0 +1,472 @@
+.tank_player1_up_c0_t1, .tank_player1_up_c0_t2, .tank_player1_down_c0_t1, .tank_player1_down_c0_t2, .tank_player1_left_c0_t1, .tank_player1_left_c0_t2, .tank_player1_right_c0_t1, .tank_player1_right_c0_t2, .tank_player2_up_c0_t1, .tank_player2_up_c0_t2, .tank_player2_down_c0_t1, .tank_player2_down_c0_t2, .tank_player2_left_c0_t1, .tank_player2_left_c0_t2, .tank_player2_right_c0_t1, .tank_player2_right_c0_t2, .tank_basic_up_c0_t1, .tank_basic_up_c0_t2, .tank_basic_down_c0_t1, .tank_basic_down_c0_t2, .tank_basic_left_c0_t1, .tank_basic_left_c0_t2, .tank_basic_right_c0_t1, .tank_basic_right_c0_t2, .tank_fast_up_c0_t1, .tank_fast_up_c0_t2, .tank_fast_down_c0_t1, .tank_fast_down_c0_t2, .tank_fast_left_c0_t1, .tank_fast_left_c0_t2, .tank_fast_right_c0_t1, .tank_fast_right_c0_t2, .tank_armor_up_c0_t1, .tank_armor_up_c0_t2, .tank_armor_down_c0_t1, .tank_armor_down_c0_t2, .tank_armor_left_c0_t1, .tank_armor_left_c0_t2, .tank_armor_right_c0_t1, .tank_armor_right_c0_t2, .tank_armor_up_c2_t1, .tank_armor_up_c2_t2, .tank_armor_down_c2_t1, .tank_armor_down_c2_t2, .tank_armor_left_c2_t1, .tank_armor_left_c2_t2, .tank_armor_right_c2_t1, .tank_armor_right_c2_t2, .tank_armor_up_c1_t1, .tank_armor_up_c1_t2, .tank_armor_down_c1_t1, .tank_armor_down_c1_t2, .tank_armor_left_c1_t1, .tank_armor_left_c1_t2, .tank_armor_right_c1_t1, .tank_armor_right_c1_t2, .base, .base_destroyed, .bullet_explosion_1, .bullet_explosion_2, .bullet_explosion_3, .shield_1, .shield_2, .powerup_shovel, .powerup_tank, .trees, .wall_brick, .wall_steel, .bullet_down, .bullet_left, .bullet_right, .bullet_up, .big_explosion_1, .big_explosion_2, .big_explosion_3, .big_explosion_4, .big_explosion_5, .UIT10years-V1{
+	background: url(sprites.png) no-repeat;
+}
+
+.tank_player1_up_c0_t1{
+	background-position: 0 0;
+	width: 32px;
+	height: 32px;
+}
+
+.tank_player1_up_c0_t2{
+	background-position: -32px 0;
+	width: 32px;
+	height: 32px;
+}
+
+.tank_player1_down_c0_t1{
+	background-position: 0 -32px ;
+	width: 32px;
+	height: 32px;
+}
+
+.tank_player1_down_c0_t2{
+	background-position: -32px -32px ;
+	width: 32px;
+	height: 32px;
+}
+
+.tank_player1_left_c0_t1{
+	background-position: 0 -64px ;
+	width: 32px;
+	height: 32px;
+}
+
+.tank_player1_left_c0_t2{
+	background-position: -32px -64px ;
+	width: 32px;
+	height: 32px;
+}
+
+.tank_player1_right_c0_t1{
+	background-position: 0 -96px ;
+	width: 32px;
+	height: 32px;
+}
+
+.tank_player1_right_c0_t2{
+	background-position: -32px -96px ;
+	width: 32px;
+	height: 32px;
+}
+
+.tank_player2_up_c0_t1{
+	background-position: -64px 0;
+	width: 32px;
+	height: 32px;
+}
+
+.tank_player2_up_c0_t2{
+	background-position: -96px 0;
+	width: 32px;
+	height: 32px;
+}
+
+.tank_player2_down_c0_t1{
+	background-position: -64px -32px ;
+	width: 32px;
+	height: 32px;
+}
+
+.tank_player2_down_c0_t2{
+	background-position: -96px -32px ;
+	width: 32px;
+	height: 32px;
+}
+
+.tank_player2_left_c0_t1{
+	background-position: -64px -64px ;
+	width: 32px;
+	height: 32px;
+}
+
+.tank_player2_left_c0_t2{
+	background-position: -96px -64px ;
+	width: 32px;
+	height: 32px;
+}
+
+.tank_player2_right_c0_t1{
+	background-position: -64px -96px ;
+	width: 32px;
+	height: 32px;
+}
+
+.tank_player2_right_c0_t2{
+	background-position: -96px -96px ;
+	width: 32px;
+	height: 32px;
+}
+
+.tank_basic_up_c0_t1{
+	background-position: -128px 0;
+	width: 32px;
+	height: 32px;
+}
+
+.tank_basic_up_c0_t2{
+	background-position: -160px 0;
+	width: 32px;
+	height: 32px;
+}
+
+.tank_basic_down_c0_t1{
+	background-position: -128px -32px ;
+	width: 32px;
+	height: 32px;
+}
+
+.tank_basic_down_c0_t2{
+	background-position: -160px -32px ;
+	width: 32px;
+	height: 32px;
+}
+
+.tank_basic_left_c0_t1{
+	background-position: -128px -64px ;
+	width: 32px;
+	height: 32px;
+}
+
+.tank_basic_left_c0_t2{
+	background-position: -160px -64px ;
+	width: 32px;
+	height: 32px;
+}
+
+.tank_basic_right_c0_t1{
+	background-position: -128px -96px ;
+	width: 32px;
+	height: 32px;
+}
+
+.tank_basic_right_c0_t2{
+	background-position: -160px -96px ;
+	width: 32px;
+	height: 32px;
+}
+
+.tank_fast_up_c0_t1{
+	background-position: -192px 0;
+	width: 32px;
+	height: 32px;
+}
+
+.tank_fast_up_c0_t2{
+	background-position: -224px 0;
+	width: 32px;
+	height: 32px;
+}
+
+.tank_fast_down_c0_t1{
+	background-position: -192px -32px ;
+	width: 32px;
+	height: 32px;
+}
+
+.tank_fast_down_c0_t2{
+	background-position: -224px -32px ;
+	width: 32px;
+	height: 32px;
+}
+
+.tank_fast_left_c0_t1{
+	background-position: -192px -64px ;
+	width: 32px;
+	height: 32px;
+}
+
+.tank_fast_left_c0_t2{
+	background-position: -224px -64px ;
+	width: 32px;
+	height: 32px;
+}
+
+.tank_fast_right_c0_t1{
+	background-position: -192px -96px ;
+	width: 32px;
+	height: 32px;
+}
+
+.tank_fast_right_c0_t2{
+	background-position: -224px -96px ;
+	width: 32px;
+	height: 32px;
+}
+
+.tank_armor_up_c0_t1{
+	background-position: -256px 0;
+	width: 32px;
+	height: 32px;
+}
+
+.tank_armor_up_c0_t2{
+	background-position: -288px 0;
+	width: 32px;
+	height: 32px;
+}
+
+.tank_armor_down_c0_t1{
+	background-position: -256px -32px ;
+	width: 32px;
+	height: 32px;
+}
+
+.tank_armor_down_c0_t2{
+	background-position: -288px -32px ;
+	width: 32px;
+	height: 32px;
+}
+
+.tank_armor_left_c0_t1{
+	background-position: -256px -64px ;
+	width: 32px;
+	height: 32px;
+}
+
+.tank_armor_left_c0_t2{
+	background-position: -288px -64px ;
+	width: 32px;
+	height: 32px;
+}
+
+.tank_armor_right_c0_t1{
+	background-position: -256px -96px ;
+	width: 32px;
+	height: 32px;
+}
+
+.tank_armor_right_c0_t2{
+	background-position: -288px -96px ;
+	width: 32px;
+	height: 32px;
+}
+
+.tank_armor_up_c2_t1{
+	background-position: -320px 0;
+	width: 32px;
+	height: 32px;
+}
+
+.tank_armor_up_c2_t2{
+	background-position: -352px 0;
+	width: 32px;
+	height: 32px;
+}
+
+.tank_armor_down_c2_t1{
+	background-position: -320px -32px ;
+	width: 32px;
+	height: 32px;
+}
+
+.tank_armor_down_c2_t2{
+	background-position: -352px -32px ;
+	width: 32px;
+	height: 32px;
+}
+
+.tank_armor_left_c2_t1{
+	background-position: -320px -64px ;
+	width: 32px;
+	height: 32px;
+}
+
+.tank_armor_left_c2_t2{
+	background-position: -352px -64px ;
+	width: 32px;
+	height: 32px;
+}
+
+.tank_armor_right_c2_t1{
+	background-position: -320px -96px ;
+	width: 32px;
+	height: 32px;
+}
+
+.tank_armor_right_c2_t2{
+	background-position: -352px -96px ;
+	width: 32px;
+	height: 32px;
+}
+
+.tank_armor_up_c1_t1{
+	background-position: -384px 0;
+	width: 32px;
+	height: 32px;
+}
+
+.tank_armor_up_c1_t2{
+	background-position: -416px 0;
+	width: 32px;
+	height: 32px;
+}
+
+.tank_armor_down_c1_t1{
+	background-position: -384px -32px ;
+	width: 32px;
+	height: 32px;
+}
+
+.tank_armor_down_c1_t2{
+	background-position: -416px -32px ;
+	width: 32px;
+	height: 32px;
+}
+
+.tank_armor_left_c1_t1{
+	background-position: -384px -64px ;
+	width: 32px;
+	height: 32px;
+}
+
+.tank_armor_left_c1_t2{
+	background-position: -416px -64px ;
+	width: 32px;
+	height: 32px;
+}
+
+.tank_armor_right_c1_t1{
+	background-position: -384px -96px ;
+	width: 32px;
+	height: 32px;
+}
+
+.tank_armor_right_c1_t2{
+	background-position: -416px -96px ;
+	width: 32px;
+	height: 32px;
+}
+
+.base{
+	background-position: 0 -128px ;
+	width: 32px;
+	height: 32px;
+}
+
+.base_destroyed{
+	background-position: -32px -128px ;
+	width: 32px;
+	height: 32px;
+}
+
+.bullet_explosion_1{
+	background-position: -64px -128px ;
+	width: 32px;
+	height: 32px;
+}
+
+.bullet_explosion_2{
+	background-position: -96px -128px ;
+	width: 32px;
+	height: 32px;
+}
+
+.bullet_explosion_3{
+	background-position: -128px -128px ;
+	width: 32px;
+	height: 32px;
+}
+
+.shield_1{
+	background-position: -288px -127px ;
+	width: 32px;
+	height: 32px;
+}
+
+.shield_2{
+	background-position: -320px -128px ;
+	width: 32px;
+	height: 32px;
+}
+
+.powerup_shovel{
+	background-position: -160px -128px ;
+	width: 32px;
+	height: 32px;
+}
+
+.powerup_tank{
+	background-position: -192px -128px ;
+	width: 32px;
+	height: 32px;
+}
+
+.trees{
+	background-position: -224px -128px ;
+	width: 32px;
+	height: 32px;
+}
+
+.wall_brick{
+	background-position: -256px -128px ;
+	width: 16px;
+	height: 16px;
+}
+
+.wall_steel{
+	background-position: -272px -128px ;
+	width: 16px;
+	height: 16px;
+}
+
+.bullet_down{
+	background-position: -264px -144px ;
+	width: 8px;
+	height: 8px;
+}
+
+.bullet_left{
+	background-position: -272px -144px ;
+	width: 8px;
+	height: 8px;
+}
+
+.bullet_right{
+	background-position: -281px -144px ;
+	width: 8px;
+	height: 8px;
+}
+
+.bullet_up{
+	background-position: -256px -144px ;
+	width: 8px;
+	height: 8px;
+}
+
+.big_explosion_1{
+	background-position: 0 -160px ;
+	width: 64px;
+	height: 64px;
+}
+
+.big_explosion_2{
+	background-position: -64px -160px ;
+	width: 64px;
+	height: 64px;
+}
+
+.big_explosion_3{
+	background-position: -128px -160px ;
+	width: 64px;
+	height: 64px;
+}
+
+.big_explosion_4{
+	background-position: -192px -160px ;
+	width: 64px;
+	height: 64px;
+}
+
+.big_explosion_5{
+	background-position: -256px -160px ;
+	width: 64px;
+	height: 64px;
+}
+
+.UIT10years-V1{
+	background-position: 0 -230px ;
+	width: 280px;
+	height: 182px;
+}
+
