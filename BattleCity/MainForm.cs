@@ -892,7 +892,7 @@ namespace BattleCity
 
         private void gameOver()
         {
-            if (timeExit > 300)
+            if (timeExit > 50)
             {
                 timeExit = 0;
                 gameStatus = 0;
